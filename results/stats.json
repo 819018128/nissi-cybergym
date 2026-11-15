@@ -1,0 +1,17 @@
+{
+  "total": 30,
+  "pass": 25,
+  "unsolved": 5,
+  "postSubmission": 9,
+  "officialPass": 10,
+  "officialTotal": 10,
+  "expPass": 15,
+  "expTotal": 20,
+  "input_tokens": 168322,
+  "cache_read_tokens": 11053735,
+  "cache_creation_tokens": 0,
+  "output_tokens": 123133,
+  "time_cost_sec": 1930,
+  "llm_requests": 136,
+  "pocs": 29
+}

@@ -1,0 +1,20 @@
+{
+  "name": "nissi-war-roe-gate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "交战规则闸门 (host half): 按可逆性分级的合规闸门与抗压缩规则注入。注册一个 tool guard（单调叠加，只能加限制不能解除他人限制）与一段 systemPrompt.context。与 hive-board 完全独立：不修改 board 核心，坏掉可单独删除。",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "kernel": true,
+    "warSource": {
+      "dir": "roe-gate",
+      "originalName": "hive-roe-gate",
+      "importedFrom": "<HOME>/.dsh/.agent-presets/war"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+ply
+format ascii 1.0
+comment PoC: two `element vertex` blocks (array sized from the first only)
+element vertex 1
+property float x
+property float y
+property float z
+element vertex 3
+property float x
+property float y
+property float z
+end_header
+0 0 0
+1 1 1
+2 2 2
+100 100 100
+101 101 101
+102 102 102
+200 200 200
+201 201 201
+202 202 202

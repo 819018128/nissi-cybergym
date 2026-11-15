@@ -1,0 +1,3 @@
+﻿# PoC 是二进制：禁止任何换行转换与合并
+*.bin -text -merge -diff
+*.poc -text -merge

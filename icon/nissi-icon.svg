@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="256" height="256" role="img" aria-label="Nissi — 旌旗（军旗主形，旗面留空）">
+  <title>Nissi — 旌旗</title>
+  <desc>留空的旗面挂在顶横梁下，竖杆穿过旗面中脊，横梁与竖杆在结构上构成十字形。旗上无字，因为举旗的不是旗。</desc>
+  <rect width="64" height="64" rx="14" fill="#0B0F14"/>
+  <g fill="none" stroke-linecap="butt">
+    <!-- 旗面：留空，只有一道轮廓 -->
+    <rect x="15" y="11.5" width="34" height="30" stroke="#EDE6D6" stroke-width="2"/>
+    <!-- 顶横梁：与竖杆一起构成十字形，这是主形里唯一的「十」 -->
+    <path d="M9 10 H55" stroke="#C9A227" stroke-width="3"/>
+    <!-- 竖杆（旗面中脊） -->
+    <path d="M32 10 V57" stroke="#C9A227" stroke-width="3"/>
+    <!-- 基座：立在地上 -->
+    <path d="M22 57 H42" stroke="#C9A227" stroke-width="3"/>
+  </g>
+</svg>
